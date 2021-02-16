@@ -1,0 +1,103 @@
+Name					13_TruckTrailer_n30_m400_bt10_3
+Number_of_Customers			30
+Number_of_Items				400
+Number_of_ItemTypes			10
+Number_of_Vehicles			13
+TimeWindows				0
+
+VEHICLE
+Mass_Capacity				25950
+CargoSpace_Length			136
+CargoSpace_Width			25
+CargoSpace_Height			30
+Wheelbase				36
+Max_Mass_FrontAxle			10000
+Max_Mass_RearAxle			11500
+Max_Mass_TrailerAxle			24000
+Distance_Kingpin_RearAxle		6
+Distance_Kingpin_TrailerAxle		76
+Distance_CargoSpace_TrailerAxle		92
+Distance_Mass_Tractor_RearAxle		25
+Distance_Mass_Trailer_TrailerAxle	16
+Mass_Tractor				7300
+Mass_Trailer				6750
+
+CUSTOMERS
+i		x		y		Demand		ReadyTime	DueDate		ServiceTime	DemandedMass	DemandedVolume
+0		35		35		0		0		0		0		0		0
+1		3		65		12		0		0		0		3637.92		18196
+2		62		16		12		0		0		0		4079.58		19880
+3		38		52		12		0		0		0		3252.34		15852
+4		22		43		18		0		0		0		4874.44		23148
+5		66		30		11		0		0		0		2814.29		13942
+6		54		12		6		0		0		0		2103.64		10066
+7		27		32		12		0		0		0		3147.17		15514
+8		17		8		20		0		0		0		5125.81		25496
+9		3		0		13		0		0		0		4049.15		19204
+10		48		36		11		0		0		0		2847.39		13200
+11		55		1		11		0		0		0		4028.48		19142
+12		61		23		13		0		0		0		4407.13		20928
+13		39		34		13		0		0		0		4113.46		18956
+14		50		10		12		0		0		0		3902.59		18322
+15		34		59		14		0		0		0		4215.55		19750
+16		23		40		16		0		0		0		4987.99		23528
+17		52		27		15		0		0		0		4262.61		19282
+18		44		3		12		0		0		0		2309.4		11888
+19		70		29		22		0		0		0		6335.71		29482
+20		38		57		11		0		0		0		5446.51		24456
+21		67		63		15		0		0		0		5324.69		25770
+22		36		63		17		0		0		0		5562.99		26366
+23		14		8		12		0		0		0		4822.04		22424
+24		32		1		9		0		0		0		2889.98		14146
+25		57		17		15		0		0		0		4100.1		19886
+26		54		22		12		0		0		0		4950.95		23076
+27		50		29		10		0		0		0		2845.64		13956
+28		55		17		12		0		0		0		4204.46		19622
+29		5		19		19		0		0		0		4995.46		24162
+30		35		6		13		0		0		0		3524.92		16930
+
+ITEMS
+Type		Length		Width		Height		Mass		Fragility	LoadBearingStrength
+Bt1		13		6		15		218.75		0		14.0224582
+Bt2		25		10		15		827.30		0		16.5459666
+Bt3		19		7		6		138.08		0		5.1910596
+Bt4		16		7		15		339.47		0		15.1550699
+Bt5		23		12		8		507.62		1		1.8392174
+Bt6		17		12		8		360.69		0		8.8405142
+Bt7		10		7		11		172.56		0		12.3259875
+Bt8		13		10		9		176.59		0		6.7918717
+Bt9		16		8		13		370.24		0		14.4625318
+Bt10		6		7		8		70.22		0		8.3594025
+
+DEMANDS PER CUSTOMER
+i	Type Quantity
+1	Bt1 4	Bt2 1	Bt4 2	Bt6 1	Bt7 1	Bt8 2	Bt9 1	
+2	Bt2 1	Bt3 2	Bt4 1	Bt5 2	Bt6 2	Bt8 3	Bt9 1	
+3	Bt2 1	Bt3 2	Bt4 1	Bt5 1	Bt6 1	Bt7 3	Bt8 2	Bt10 1	
+4	Bt1 3	Bt2 1	Bt3 3	Bt4 1	Bt5 1	Bt6 1	Bt7 3	Bt9 3	Bt10 2	
+5	Bt1 1	Bt3 1	Bt4 4	Bt5 1	Bt7 2	Bt8 1	Bt10 1	
+6	Bt4 2	Bt5 1	Bt8 1	Bt9 2	
+7	Bt1 1	Bt4 1	Bt5 2	Bt6 1	Bt7 1	Bt8 3	Bt9 1	Bt10 2	
+8	Bt1 3	Bt4 1	Bt5 2	Bt6 1	Bt7 4	Bt8 5	Bt9 3	Bt10 1	
+9	Bt1 2	Bt2 1	Bt4 2	Bt5 1	Bt6 1	Bt7 4	Bt8 1	Bt9 1	
+10	Bt3 2	Bt4 1	Bt5 2	Bt6 1	Bt7 2	Bt9 1	Bt10 2	
+11	Bt1 1	Bt2 3	Bt3 1	Bt4 1	Bt6 1	Bt7 1	Bt8 1	Bt10 2	
+12	Bt2 2	Bt3 1	Bt4 1	Bt5 1	Bt6 1	Bt7 1	Bt8 2	Bt9 2	Bt10 2	
+13	Bt1 2	Bt2 1	Bt4 1	Bt5 2	Bt7 1	Bt9 3	Bt10 3	
+14	Bt1 1	Bt2 2	Bt3 1	Bt5 1	Bt6 2	Bt7 2	Bt8 1	Bt10 2	
+15	Bt1 1	Bt4 2	Bt5 2	Bt6 4	Bt7 1	Bt8 1	Bt9 1	Bt10 2	
+16	Bt2 1	Bt3 2	Bt4 5	Bt5 1	Bt6 2	Bt7 3	Bt9 1	Bt10 1	
+17	Bt3 1	Bt5 2	Bt6 4	Bt7 2	Bt9 3	Bt10 3	
+18	Bt1 2	Bt3 3	Bt4 1	Bt6 1	Bt8 1	Bt9 1	Bt10 3	
+19	Bt1 4	Bt4 2	Bt5 2	Bt6 2	Bt7 1	Bt9 7	Bt10 4	
+20	Bt1 1	Bt2 3	Bt5 4	Bt7 2	Bt9 1	
+21	Bt1 3	Bt2 3	Bt3 2	Bt4 3	Bt7 2	Bt8 1	Bt9 1	
+22	Bt1 4	Bt2 3	Bt3 1	Bt4 2	Bt6 1	Bt7 3	Bt9 1	Bt10 2	
+23	Bt1 2	Bt2 1	Bt3 1	Bt4 3	Bt5 4	Bt9 1	
+24	Bt1 2	Bt2 2	Bt3 2	Bt7 2	Bt8 1	
+25	Bt1 1	Bt2 1	Bt4 3	Bt5 1	Bt6 2	Bt7 1	Bt8 2	Bt10 4	
+26	Bt1 1	Bt2 4	Bt3 3	Bt5 1	Bt6 1	Bt10 2	
+27	Bt1 3	Bt3 2	Bt5 2	Bt6 2	Bt8 1	
+28	Bt1 2	Bt2 1	Bt3 2	Bt4 1	Bt5 3	Bt6 1	Bt9 1	Bt10 1	
+29	Bt1 2	Bt2 1	Bt3 1	Bt4 2	Bt6 2	Bt7 3	Bt8 2	Bt9 3	Bt10 3	
+30	Bt1 2	Bt3 3	Bt5 3	Bt6 1	Bt7 1	Bt8 1	Bt9 1	Bt10 1	
