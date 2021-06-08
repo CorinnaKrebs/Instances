@@ -46,12 +46,12 @@ i		x	y	Demand		ReadyTime	DueDate		ServiceTime	DemandedMass	DemandedVolume
 
 ITEMS
 Type	Length	Width	Height	Mass	Fragility	LoadBearingStrength
-Bt1	80	120	244	1187.2]	0		0
-Bt2	80	120	244	1076.8]	0		0
-Bt3	80	120	244	1047.2]	0		0
-Bt4	80	120	244	2149.5]	0		0
-Bt5	80	120	244	1203.33333333]	0		0
-Bt6	80	120	244	1681.16666667]	0		0
+Bt1	80	120	244	1188	0		0
+Bt2	80	120	244	1077	0		0
+Bt3	80	120	244	1048	0		0
+Bt4	80	120	244	2150	0		0
+Bt5	80	120	244	1204	0		0
+Bt6	80	120	244	1682	0		0
 Bt7	80	120	244	1102	0		0
 Bt8	80	120	244	1392	0		0
 Bt9	80	120	244	1341	0		0
