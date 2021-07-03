@@ -1,0 +1,91 @@
+Name				SD-CSS2
+Number_of_Customers		25
+Number_of_Items			350
+Number_of_ItemTypes		15
+Number_of_Vehicles		13
+TimeWindows			0
+
+VEHICLE
+Mass_Capacity			28000
+CargoSpace_Length		1360
+CargoSpace_Width		255
+CargoSpace_Height		275
+Wheelbase			600
+Max_Mass_FrontAxle		16000
+Max_Mass_RearAxle		26000
+Distance_FrontAxle_CargoSpace	76
+
+CUSTOMERS
+i		x		y		Demand		ReadyTime	DueDate		ServiceTime	DemandedMass	DemandedVolume
+0		0		0		0		0		0		0		0		0
+1		-48		8		11		0		0		0		1624		20827812
+2		-279		-155		20		0		0		0		3629		40186608
+3		-280		-209		16		0		0		0		2364		31557604
+4		-187		250		12		0		0		0		2461		26170740
+5		274		-83		18		0		0		0		3924		41677548
+6		368		226		17		0		0		0		3527		41050448
+7		97		-219		16		0		0		0		2986		34912144
+8		-166		297		11		0		0		0		1488		18572566
+9		-260		-132		13		0		0		0		1044		18048266
+10		14		-113		12		0		0		0		1702		24650822
+11		289		208		18		0		0		0		2661		36299414
+12		107		370		13		0		0		0		2750		30142312
+13		-10		-441		15		0		0		0		2840		35169730
+14		-123		212		13		0		0		0		2381		28916296
+15		-95		97		10		0		0		0		1166		14654156
+16		383		-184		5		0		0		0		1227		11857646
+17		-163		455		14		0		0		0		2452		31235194
+18		-45		-369		14		0		0		0		2526		28517240
+19		358		126		15		0		0		0		2995		32096960
+20		105		-308		12		0		0		0		2716		32776416
+21		-77		345		14		0		0		0		2475		26590502
+22		61		437		19		0		0		0		2422		39075862
+23		-268		-151		12		0		0		0		2105		24686814
+24		144		340		13		0		0		0		2100		28527774
+25		-282		-366		17		0		0		0		4060		40379806
+
+ITEMS
+Type		Length		Width		Height		Mass		Fragility	LoadBearingStrength
+Bt1		50		50		41		18		0		0.0720000
+Bt2		56		56		46		21		0		0.1042700
+Bt3		67		77		74		37		0		0.0358600
+Bt4		80		112		90		10		0		0.0060800
+Bt5		82		95		92		57		0		0.0512200
+Bt6		96		200		178		480		0		0.1750000
+Bt7		101		116		197		340		1		0.0000000
+Bt8		112		140		190		32		0		0.0185400
+Bt9		112		140		172		30		0		0.0096300
+Bt10		112		140		61		21		0		0.0055600
+Bt11		112		140		131		32		0		0.0309000
+Bt12		112		140		142		18		1		0.0000000
+Bt13		113		126		144		135		0		0.0663700
+Bt14		113		126		218		227		0		0.0799300
+Bt15		126		137		161		243		0		0.2111600
+
+DEMANDS PER CUSTOMER
+i	Type Quantity
+1	Bt4 1	Bt5 2	Bt10 2	Bt15 6	
+2	Bt1 2	Bt2 1	Bt3 2	Bt4 1	Bt6 1	Bt7 1	Bt13 2	Bt14 2	Bt15 8	
+3	Bt1 3	Bt3 1	Bt6 1	Bt9 2	Bt10 1	Bt13 2	Bt14 1	Bt15 5	
+4	Bt1 1	Bt5 1	Bt7 2	Bt10 1	Bt14 1	Bt15 6	
+5	Bt1 1	Bt2 1	Bt3 1	Bt6 2	Bt7 2	Bt8 1	Bt10 1	Bt14 2	Bt15 7	
+6	Bt3 1	Bt4 1	Bt5 1	Bt6 2	Bt7 1	Bt9 2	Bt13 1	Bt14 1	Bt15 7	
+7	Bt1 1	Bt5 1	Bt7 2	Bt10 2	Bt12 1	Bt14 1	Bt15 8	
+8	Bt1 1	Bt2 1	Bt3 1	Bt5 1	Bt10 1	Bt13 1	Bt14 1	Bt15 4	
+9	Bt1 2	Bt3 1	Bt4 2	Bt10 2	Bt12 1	Bt13 3	Bt15 2	
+10	Bt2 1	Bt4 1	Bt9 1	Bt10 1	Bt13 3	Bt15 5	
+11	Bt3 2	Bt5 1	Bt7 1	Bt8 1	Bt10 3	Bt11 1	Bt13 1	Bt14 1	Bt15 7	
+12	Bt1 1	Bt6 3	Bt9 1	Bt10 3	Bt14 1	Bt15 4	
+13	Bt1 1	Bt2 1	Bt6 1	Bt7 1	Bt8 1	Bt10 1	Bt11 1	Bt14 3	Bt15 5	
+14	Bt1 1	Bt3 1	Bt4 1	Bt6 1	Bt11 1	Bt13 1	Bt14 2	Bt15 5	
+15	Bt2 1	Bt3 2	Bt5 1	Bt10 2	Bt15 4	
+16	Bt1 1	Bt6 1	Bt15 3	
+17	Bt3 1	Bt6 1	Bt9 1	Bt10 2	Bt13 3	Bt15 6	
+18	Bt1 1	Bt2 1	Bt3 1	Bt6 1	Bt10 2	Bt14 1	Bt15 7	
+19	Bt1 1	Bt3 3	Bt4 1	Bt6 2	Bt14 3	Bt15 5	
+20	Bt6 2	Bt8 1	Bt10 1	Bt12 1	Bt14 1	Bt15 6	
+21	Bt2 1	Bt3 1	Bt7 3	Bt10 3	Bt13 1	Bt14 1	Bt15 4	
+22	Bt2 2	Bt3 1	Bt4 1	Bt9 2	Bt10 3	Bt13 1	Bt14 7	Bt15 2	
+23	Bt3 1	Bt5 1	Bt6 2	Bt7 1	Bt9 1	Bt10 2	Bt12 1	Bt13 1	Bt15 2	
+24	Bt1 1	Bt5 1	Bt6 1	Bt10 1	Bt11 2	Bt12 1	Bt14 1	Bt15 5	
+25	Bt1 2	Bt4 1	Bt6 4	Bt7 1	Bt8 1	Bt10 1	Bt15 7	

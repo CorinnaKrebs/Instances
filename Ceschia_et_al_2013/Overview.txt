@@ -1,0 +1,14 @@
+	Name		No_of_Customers		No_of_Items		TimeWindows
+1	SD-CSS1		11			254			0
+2	SD-CSS2		25			350			0
+3	SD-CSS3		33			285			0
+4	SD-CSS4		37			312			0
+5	SD-CSS5		41			7035			0
+6	SD-CSS6		43			8060			0
+7	SD-CSS7		45			284			0
+8	SD-CSS8		48			3275			0
+9	SD-CSS9		56			1725			0
+10	SD-CSS10	60			1840			0
+11	SD-CSS11	92			3790			0
+12	SD-CSS12	129			745			0
+13	SD-CSS13	129			2880			0

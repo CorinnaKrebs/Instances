@@ -1,0 +1,81 @@
+Name				GII_I2_04
+Number_of_Customers		25
+Number_of_Items			1550
+Number_of_ItemTypes		5
+Number_of_Vehicles		1
+TimeWindows			1
+
+VEHICLE
+Mass_Capacity			28000
+CargoSpace_Length		1360
+CargoSpace_Width		245
+CargoSpace_Height		300
+Wheelbase			600
+Max_Mass_FrontAxle		16000
+Max_Mass_RearAxle		26000
+Distance_FrontAxle_CargoSpace	76
+
+CUSTOMERS
+i		x		y		Demand		ReadyTime	DueDate		ServiceTime	DemandedMass	DemandedVolume
+0		35		35		0		0		1000		0		0		0
+1		41		49		50		0		974		10		1150		5912500
+2		35		17		50		0		972		10		1150		5912500
+3		55		45		70		0		967		10		1680		10759540
+4		55		20		80		678		801		10		3600		32788800
+5		15		30		100		0		969		10		4175		36828490
+6		25		30		50		0		978		10		2250		20493000
+7		20		50		52		0		968		10		2340		21312720
+8		10		43		50		404		481		10		2250		20493000
+9		55		60		68		400		497		10		3060		27870480
+10		30		60		50		0		964		10		2250		20493000
+11		20		65		61		206		325		10		1525		15020640
+12		50		35		70		0		975		10		1750		17236800
+13		30		25		56		690		827		10		1400		13789440
+14		15		10		90		0		957		10		2450		23797800
+15		30		5		50		175		300		10		1250		12312000
+16		10		20		70		0		960		10		560		5239080
+17		5		30		72		0		959		10		1928		12442612
+18		20		40		51		0		974		10		408		3817044
+19		15		60		60		0		957		10		480		4490640
+20		45		65		50		0		958		10		1250		12312000
+21		45		20		50		0		971		10		400		3742200
+22		45		10		50		0		963		10		5800		43362000
+23		55		5		100		206		325		10		11600		86724000
+24		65		35		50		0		960		10		5800		43362000
+25		65		20		50		817		956		10		400		3742200
+
+ITEMS
+Type		Length		Width		Height		Mass		Fragility	LoadBearingStrength
+Bt1		108		76		30		25		1		0.3327250
+Bt2		110		43		25		23		0		0.9678800
+Bt3		92		81		55		45		0		1.7770150
+Bt4		81		33		28		8		0		1.3855050
+Bt5		120		99		73		116		0		1.0732150
+
+DEMANDS PER CUSTOMER
+i	Type Quantity
+1	Bt2 50	
+2	Bt2 50	
+3	Bt2 50	Bt3 10	Bt4 10	
+4	Bt3 80	
+5	Bt1 10	Bt2 5	Bt3 70	Bt4 10	Bt5 5	
+6	Bt3 50	
+7	Bt3 52	
+8	Bt3 50	
+9	Bt3 68	
+10	Bt3 50	
+11	Bt1 61	
+12	Bt1 70	
+13	Bt1 56	
+14	Bt1 80	Bt3 10	
+15	Bt1 50	
+16	Bt4 70	
+17	Bt1 10	Bt2 50	Bt4 8	Bt5 4	
+18	Bt4 51	
+19	Bt4 60	
+20	Bt1 50	
+21	Bt4 50	
+22	Bt5 50	
+23	Bt5 100	
+24	Bt5 50	
+25	Bt4 50	
